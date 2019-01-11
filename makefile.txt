@@ -1,0 +1,5 @@
+CC=gcc
+CFLAGS=-g
+
+SixDegreesOfBacon: main.c readFile.c search.c parsers.c node.c hashcmds.c
+	$(CC) -Wall -Wextra -g -o SixDegreesOfBacon main.c readFile.c search.c parsers.c node.c hashcmds.c -I .
